@@ -17,3 +17,13 @@ foreach($operasi_matematika as $k)
 }
 
 // Input
+
+// tampilkan hasil perhitungan
+
+echo " Hasil dari $bil_satu + $bil_kedua adalah :". ($bil_satu+$bil_kedua). "\n";
+    
+if($pilih_operasi==1)
+{
+    $hasil = $bil_satu + $bil_kedua;
+    echo $template_hasil.$hasil;
+}
