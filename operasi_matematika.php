@@ -29,4 +29,7 @@ if($pilih_operasi==1)
 }else if($pilih_operasi==2){
     $hasil =$bil_satu - $bil_kedua;
     echo $template_hasil.$hasil;
+}else if($pilih_operasi==3){
+    $hasil =$bil_satu * $bil_kedua;
+    echo $template_hasil.$hasil;
 }
